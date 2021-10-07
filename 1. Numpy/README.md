@@ -1,17 +1,19 @@
 ### NumPy also has its own builtin generation methods of creating arrays
 
-```np.arange``` - it works as python range function. It takes three arguments the start, stop and the step size.
+```numpy.arange``` 
+  - numpy.arange *([start, ]stop, [step, ]dtype=None, like=None)*
+  - Return evenly spaced values within a given interval. Values are generated within the half-open interval (start, stop) (in other words, the interval including start but excluding stop). For integer arguments the function is equivalent to the Python built-in range function, but returns an ndarray rather than a list.
 
-np.zeros - generates an array of all zeros.
+```numpy.zeros``` - Return a new array of given shape and type, filled with zeros.
 
-np.ones - generates an array of all ones.
+```numpy.ones``` - Return a new array of given shape and type, filled with ones.
 
-np.linspace - returns evenly spaced numbers over a specified interval. linspace takes a third argument as the number of points you want.
+```numpy.linspace``` - numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)
 
-np.eye - this is an identity matrix.
+```numpy.eye``` - this is an identity matrix.
 
-np.random.rand - this is going to populate an array of the given shape you pass in and it's going to populate it with random samples from a uniform distribution over 0 to 1.
+```numpy.random.rand``` - this is going to populate an array of the given shape you pass in and it's going to populate it with random samples from a uniform distribution over 0 to 1.
 
-np.random.randn - returns random numbers from a standard normal distribution centered around 0.
+```numpy.random.randn``` - returns random numbers from a standard normal distribution centered around 0.
 
-np.random.randint - returns random integers from a low to a high number and also a size
+```numpy.random.randint``` - returns random integers from a low to a high number and also a size
