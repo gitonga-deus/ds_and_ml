@@ -1,6 +1,6 @@
 ### NumPy also has its own builtin generation methods of creating arrays
 
-np.arange - it works as python range function. It takes three arguments the start, stop and the step size.
+```np.arange``` - it works as python range function. It takes three arguments the start, stop and the step size.
 
 np.zeros - generates an array of all zeros.
 
